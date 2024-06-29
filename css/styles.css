@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html{
+    min-height: 100%;
+    position: relative;
+}
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+
+
+header {
+    background: #000;
+    color: #bbad32;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 60px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.ver-mas{
+    background-color: #2adb42;
+    border:none;
+    padding: 14px 28px;
+    cursor: pointer;
+
+    display: inline-block;
+    margin-left:48% ;
+    margin-top: 2%;
+
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+nav a  {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.main-home{
+    color: #000000;
+    text-align: center;
+    padding: 4rem ;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+nav ul a ion-icon{
+    font-size: 1.3em;
+}
